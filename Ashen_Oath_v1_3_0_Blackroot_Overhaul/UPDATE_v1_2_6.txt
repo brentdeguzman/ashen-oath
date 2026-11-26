@@ -1,0 +1,18 @@
+ASHEN OATH v1.2.6 — DISTINCT DUNGEON SETPIECES
+================================================
+
+* Replaces the seven recycled placeholder landmark sprites with 42 large, distinct biome-specific scenery assets.
+* Replaces repeated crystal-shaped ambient props with more relevant per-biome objects.
+* Forest: shrines, mushroom thickets, old ranger camps, ancient statues.
+* Swamp: sunken buildings, slime-infested ruins, barge wrecks.
+* Crystal: excavation equipment, mine carts, ore smelters and giant mine relics.
+* Spire: ruins, iron forges, molten crucibles and battle monuments.
+* Echo: lost archives, statues, broken clocks and chronomancy shrines.
+* Shrine: submerged ruins, coral, ancient offerings and sunken wrecks.
+* Highlands: frostbound defenses, shelters, war monuments and frozen convoys.
+* Extra: environmental descriptions from nearby landmarks using E; tracked in the existing secrets save object.
+* All previous maps, enemy pools, boss fights, campfires, chests, exits and puzzle levers preserved.
+
+Additional: 42 original biome-specific floor debris sprites and 14 walkable ground murals.
+Removed obsolete v1.2.5 14 primitive relic/detail images and 7 older stage stamps.
+Graphics are drawn in the actual HTML5 canvas, not screenshots or painted backgrounds.

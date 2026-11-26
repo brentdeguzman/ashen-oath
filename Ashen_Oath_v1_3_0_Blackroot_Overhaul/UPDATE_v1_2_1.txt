@@ -1,0 +1,6 @@
+ASHEN OATH v1.2.1 — SKILL VFX SIZE / OPACITY TUNE
+=================================================
+
+* Reduced illustrated player skill VFX size by 25%.
+* Added 30% transparency to illustrated player skill VFX.
+* Skill timing, damage, enemy balance, and all other gameplay remain unchanged from v1.2.0.
