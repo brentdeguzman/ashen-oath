@@ -1,0 +1,1949 @@
+[
+  {
+    "id": "forest_blade",
+    "name": "Forest Blade",
+    "slot": "weapon",
+    "rarity": "common",
+    "tier": 1,
+    "kind": "Sword",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "atk": 2,
+    "mag": 2,
+    "def": 0,
+    "spd": 1,
+    "crit": 0.1,
+    "hp": 0,
+    "price": 35
+  },
+  {
+    "id": "novice_dagger",
+    "name": "Novice Dagger",
+    "slot": "weapon",
+    "rarity": "common",
+    "tier": 1,
+    "kind": "Dagger",
+    "classes": [
+      "Assassin",
+      "Fighter"
+    ],
+    "atk": 2,
+    "mag": 2,
+    "def": 0,
+    "spd": 1,
+    "crit": 0.1,
+    "hp": 0,
+    "price": 35
+  },
+  {
+    "id": "apprentice_staff",
+    "name": "Apprentice Staff",
+    "slot": "weapon",
+    "rarity": "common",
+    "tier": 1,
+    "kind": "Staff",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 2,
+    "mag": 2,
+    "def": 0,
+    "spd": 1,
+    "crit": 0.1,
+    "hp": 0,
+    "price": 35
+  },
+  {
+    "id": "training_fist",
+    "name": "Training Fist",
+    "slot": "weapon",
+    "rarity": "common",
+    "tier": 1,
+    "kind": "Fist",
+    "classes": [
+      "Fighter",
+      "Priest"
+    ],
+    "atk": 2,
+    "mag": 2,
+    "def": 0,
+    "spd": 1,
+    "crit": 0.1,
+    "hp": 0,
+    "price": 35
+  },
+  {
+    "id": "traveler_halberd",
+    "name": "Traveler Halberd",
+    "slot": "weapon",
+    "rarity": "common",
+    "tier": 1,
+    "kind": "Polearm",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "atk": 2,
+    "mag": 2,
+    "def": 0,
+    "spd": 1,
+    "crit": 0.1,
+    "hp": 0,
+    "price": 35
+  },
+  {
+    "id": "battle_gloves",
+    "name": "Battle Gloves",
+    "slot": "weapon",
+    "rarity": "uncommon",
+    "tier": 2,
+    "kind": "Fist",
+    "classes": [
+      "Fighter"
+    ],
+    "atk": 4,
+    "mag": 0,
+    "def": 0,
+    "spd": 1,
+    "crit": 0.15,
+    "hp": 0,
+    "price": 120
+  },
+  {
+    "id": "claw",
+    "name": "Savage Claw",
+    "slot": "weapon",
+    "rarity": "uncommon",
+    "tier": 2,
+    "kind": "Claw",
+    "classes": [
+      "Fighter",
+      "Priest"
+    ],
+    "atk": 3,
+    "mag": 2,
+    "def": 0,
+    "spd": 2,
+    "crit": 0.2,
+    "hp": 0,
+    "price": 120
+  },
+  {
+    "id": "broadsword",
+    "name": "Broadsword",
+    "slot": "weapon",
+    "rarity": "uncommon",
+    "tier": 2,
+    "kind": "Sword",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "atk": 4,
+    "mag": 0,
+    "def": 0,
+    "spd": 1,
+    "crit": 0.15,
+    "hp": 0,
+    "price": 120
+  },
+  {
+    "id": "saber",
+    "name": "Saber",
+    "slot": "weapon",
+    "rarity": "uncommon",
+    "tier": 2,
+    "kind": "Sword",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Assassin"
+    ],
+    "atk": 3,
+    "mag": 0,
+    "def": 0,
+    "spd": 2,
+    "crit": 0.2,
+    "hp": 0,
+    "price": 120
+  },
+  {
+    "id": "poison_spear",
+    "name": "Poison Spear",
+    "slot": "weapon",
+    "rarity": "uncommon",
+    "tier": 2,
+    "kind": "Spear",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "atk": 3,
+    "mag": 0,
+    "def": 0,
+    "spd": 1,
+    "crit": 0.1,
+    "hp": 0,
+    "price": 120,
+    "onHitStatus": "poison",
+    "onHitChance": 0.4,
+    "onHitDuration": 2
+  },
+  {
+    "id": "death_scythe",
+    "name": "Death Scythe",
+    "slot": "weapon",
+    "rarity": "uncommon",
+    "tier": 2,
+    "kind": "Scythe",
+    "classes": [
+      "Paladin"
+    ],
+    "atk": 5,
+    "mag": 0,
+    "def": 0,
+    "spd": 0,
+    "crit": 0.22,
+    "hp": 0,
+    "price": 120
+  },
+  {
+    "id": "sand_dagger",
+    "name": "Sand Dagger",
+    "slot": "weapon",
+    "rarity": "uncommon",
+    "tier": 2,
+    "kind": "Dagger",
+    "classes": [
+      "Fighter",
+      "Assassin"
+    ],
+    "atk": 3,
+    "mag": 0,
+    "def": 0,
+    "spd": 3,
+    "crit": 0.2,
+    "hp": 0,
+    "price": 120
+  },
+  {
+    "id": "twilight_dagger",
+    "name": "Twilight Dagger",
+    "slot": "weapon",
+    "rarity": "uncommon",
+    "tier": 2,
+    "kind": "Dagger",
+    "classes": [
+      "Assassin"
+    ],
+    "atk": 4,
+    "mag": 0,
+    "def": 0,
+    "spd": 3,
+    "crit": 0.15,
+    "hp": 0,
+    "price": 120
+  },
+  {
+    "id": "elden_rod",
+    "name": "Elden Rod",
+    "slot": "weapon",
+    "rarity": "uncommon",
+    "tier": 2,
+    "kind": "Rod",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 1,
+    "mag": 4,
+    "def": 0,
+    "spd": 1,
+    "crit": 0.15,
+    "hp": 0,
+    "price": 120
+  },
+  {
+    "id": "lich_staff",
+    "name": "Lich Staff",
+    "slot": "weapon",
+    "rarity": "uncommon",
+    "tier": 2,
+    "kind": "Staff",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 2,
+    "mag": 5,
+    "def": 0,
+    "spd": 0,
+    "crit": 0,
+    "hp": 0,
+    "price": 120
+  },
+  {
+    "id": "arc_wand",
+    "name": "Arc Wand",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Wand",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 2,
+    "mag": 5,
+    "def": 0,
+    "spd": 2,
+    "crit": 0.2,
+    "hp": 0,
+    "price": 300
+  },
+  {
+    "id": "wizard_staff",
+    "name": "Wizard Staff",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Staff",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 3,
+    "mag": 6,
+    "def": 0,
+    "spd": 2,
+    "crit": 0.15,
+    "hp": 0,
+    "price": 300
+  },
+  {
+    "id": "battle_axe",
+    "name": "Battle Axe",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Axe",
+    "classes": [
+      "Paladin"
+    ],
+    "atk": 6,
+    "mag": 0,
+    "def": 0,
+    "spd": 2,
+    "crit": 0.25,
+    "hp": 0,
+    "price": 300
+  },
+  {
+    "id": "battle_knuckles",
+    "name": "Battle Knuckles",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Fist",
+    "classes": [
+      "Fighter",
+      "Priest"
+    ],
+    "atk": 5,
+    "mag": 3,
+    "def": 0,
+    "spd": 3,
+    "crit": 0.2,
+    "hp": 0,
+    "price": 300
+  },
+  {
+    "id": "crimson_blade",
+    "name": "Crimson Blade",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Sword",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Assassin"
+    ],
+    "atk": 5,
+    "mag": 0,
+    "def": 0,
+    "spd": 3,
+    "crit": 0.2,
+    "hp": 0,
+    "price": 300
+  },
+  {
+    "id": "elegant_knife",
+    "name": "Elegant Knife",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Dagger",
+    "classes": [
+      "Fighter",
+      "Assassin"
+    ],
+    "atk": 5,
+    "mag": 0,
+    "def": 0,
+    "spd": 3,
+    "crit": 0.25,
+    "hp": 0,
+    "price": 300
+  },
+  {
+    "id": "element_sword",
+    "name": "Element Sword",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Sword",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Assassin"
+    ],
+    "atk": 5,
+    "mag": 0,
+    "def": 0,
+    "spd": 3,
+    "crit": 0.18,
+    "hp": 0,
+    "price": 300,
+    "onHitStatus": "burn",
+    "onHitChance": 0.4,
+    "onHitDuration": 2
+  },
+  {
+    "id": "gladiator_sword",
+    "name": "Gladiator Sword",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Sword",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "atk": 5,
+    "mag": 0,
+    "def": 0,
+    "spd": 3,
+    "crit": 0.25,
+    "hp": 0,
+    "price": 300
+  },
+  {
+    "id": "hunters_dagger",
+    "name": "Hunter's Dagger",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Dagger",
+    "classes": [
+      "Assassin"
+    ],
+    "atk": 5,
+    "mag": 0,
+    "def": 0,
+    "spd": 5,
+    "crit": 0.25,
+    "hp": 0,
+    "price": 300
+  },
+  {
+    "id": "katar",
+    "name": "Katar",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Katar",
+    "classes": [
+      "Assassin"
+    ],
+    "atk": 8,
+    "mag": 0,
+    "def": 0,
+    "spd": 1,
+    "crit": 0,
+    "hp": 0,
+    "price": 300
+  },
+  {
+    "id": "kukri",
+    "name": "Kukri",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Dagger",
+    "classes": [
+      "Assassin",
+      "Knight"
+    ],
+    "atk": 4,
+    "mag": 0,
+    "def": 0,
+    "spd": 4,
+    "crit": 0.22,
+    "hp": 0,
+    "price": 300
+  },
+  {
+    "id": "light_staff",
+    "name": "Light Staff",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Staff",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 2,
+    "mag": 5,
+    "def": 0,
+    "spd": 3,
+    "crit": 0,
+    "hp": 0,
+    "price": 300,
+    "skillBoosts": {
+      "prayer": 0.2
+    }
+  },
+  {
+    "id": "tiger_fang",
+    "name": "Tiger Fang",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Fist",
+    "classes": [
+      "Fighter"
+    ],
+    "atk": 5,
+    "mag": 0,
+    "def": 0,
+    "spd": 3,
+    "crit": 0.25,
+    "hp": 0,
+    "price": 300,
+    "skillBoosts": {
+      "iron_fist": 0.2
+    }
+  },
+  {
+    "id": "wind_fork",
+    "name": "Wind Fork",
+    "slot": "weapon",
+    "rarity": "rare",
+    "tier": 3,
+    "kind": "Spear",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "atk": 5,
+    "mag": 0,
+    "def": 0,
+    "spd": 4,
+    "crit": 0,
+    "hp": 0,
+    "price": 300,
+    "skillBoosts": {
+      "pierce": 0.2
+    }
+  },
+  {
+    "id": "assassins_dagger",
+    "name": "Assassin's Dagger",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Dagger",
+    "classes": [
+      "Assassin"
+    ],
+    "atk": 7,
+    "mag": 0,
+    "def": 0,
+    "spd": 5,
+    "crit": 0.32,
+    "hp": 0,
+    "price": 650,
+    "skillBoosts": {
+      "backstab": 0.8
+    }
+  },
+  {
+    "id": "mes_knife",
+    "name": "MES Knife",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Dagger",
+    "classes": [
+      "Assassin"
+    ],
+    "atk": 6,
+    "mag": 0,
+    "def": 0,
+    "spd": 6,
+    "crit": 0.3,
+    "hp": 0,
+    "price": 650,
+    "skillBoosts": {
+      "deadly_poison": 0.5
+    }
+  },
+  {
+    "id": "sonic_katar",
+    "name": "Sonic Katar",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Katar",
+    "classes": [
+      "Assassin"
+    ],
+    "atk": 10,
+    "mag": 0,
+    "def": 0,
+    "spd": 1,
+    "crit": 0.2,
+    "hp": 0,
+    "price": 0,
+    "skillBoosts": {
+      "sonic_blow": 0.2
+    },
+    "unique": true
+  },
+  {
+    "id": "combo_gloves",
+    "name": "Combo Gloves",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Fist",
+    "classes": [
+      "Fighter"
+    ],
+    "atk": 6,
+    "mag": 0,
+    "def": 0,
+    "spd": 6,
+    "crit": 0.3,
+    "hp": 0,
+    "price": 650,
+    "skillBoosts": {
+      "iron_fist": 0.4
+    }
+  },
+  {
+    "id": "elemental_fist",
+    "name": "Elemental Fist",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Fist",
+    "classes": [
+      "Fighter"
+    ],
+    "atk": 7,
+    "mag": 0,
+    "def": 0,
+    "spd": 5,
+    "crit": 0.25,
+    "hp": 0,
+    "price": 650,
+    "skillBoosts": {
+      "asura_strike": 0.3
+    }
+  },
+  {
+    "id": "cursed_sword",
+    "name": "Cursed Sword",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Sword",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "atk": 10,
+    "mag": 0,
+    "def": 0,
+    "spd": 3,
+    "crit": 0.35,
+    "hp": 0,
+    "price": 0,
+    "hpRecoil": 0.05,
+    "unique": true
+  },
+  {
+    "id": "excalibur",
+    "name": "Excalibur",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Sword",
+    "classes": [
+      "Knight"
+    ],
+    "atk": 6,
+    "mag": 0,
+    "def": 0,
+    "spd": 6,
+    "crit": 0.3,
+    "hp": 0,
+    "price": 650,
+    "skillBoosts": {
+      "bash": 0.3,
+      "cleave": 0.3
+    }
+  },
+  {
+    "id": "solar_blade",
+    "name": "Solar Blade",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Sword",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Assassin"
+    ],
+    "atk": 7,
+    "mag": 0,
+    "def": 0,
+    "spd": 5,
+    "crit": 0.3,
+    "hp": 0,
+    "price": 650
+  },
+  {
+    "id": "zephyr",
+    "name": "Zephyr",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Spear",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "atk": 6,
+    "mag": 0,
+    "def": 0,
+    "spd": 6,
+    "crit": 0.3,
+    "hp": 0,
+    "price": 650,
+    "skillBoosts": {
+      "pierce": 0.3
+    }
+  },
+  {
+    "id": "legendary_spear",
+    "name": "Legendary Spear",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Spear",
+    "classes": [
+      "Paladin"
+    ],
+    "atk": 5,
+    "mag": 0,
+    "def": 0,
+    "spd": 4,
+    "crit": 0.25,
+    "hp": 30,
+    "price": 650,
+    "skillBoosts": {
+      "sacrifice": 0.4
+    }
+  },
+  {
+    "id": "holy_wand",
+    "name": "Holy Wand",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Wand",
+    "classes": [
+      "Priest"
+    ],
+    "atk": 2,
+    "mag": 7,
+    "def": 3,
+    "spd": 3,
+    "crit": 0,
+    "hp": 0,
+    "price": 650,
+    "skillBoosts": {
+      "prayer": 0.35,
+      "holy_light": 0.3
+    }
+  },
+  {
+    "id": "dead_branch",
+    "name": "Dead Branch",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Staff",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 2,
+    "mag": 8,
+    "def": 0,
+    "spd": 4,
+    "crit": 0.25,
+    "hp": 0,
+    "price": 0,
+    "skillBoosts": {
+      "storm_gust": 0.3,
+      "fire_bolt": 0.5
+    },
+    "unique": true
+  },
+  {
+    "id": "battle_staff",
+    "name": "Battle Staff",
+    "slot": "weapon",
+    "rarity": "epic",
+    "tier": 4,
+    "kind": "Staff",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 5,
+    "mag": 7,
+    "def": 0,
+    "spd": 4,
+    "crit": 0.35,
+    "hp": 0,
+    "price": 650
+  },
+  {
+    "id": "linen_guard",
+    "name": "Traveler Vest",
+    "rarity": "common",
+    "slot": "armor",
+    "kind": "Cloth",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter",
+      "Assassin",
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 0,
+    "def": 2,
+    "spd": 0,
+    "price": 40,
+    "tier": 1,
+    "hp": 25,
+    "mag": 0
+  },
+  {
+    "id": "acolyte_robe",
+    "name": "Acolyte Robe",
+    "rarity": "common",
+    "slot": "armor",
+    "kind": "Robe",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "def": 2,
+    "mag": 1,
+    "spd": 0,
+    "price": 40,
+    "tier": 1,
+    "hp": 31
+  },
+  {
+    "id": "copper_charm",
+    "name": "Copper Charm",
+    "rarity": "common",
+    "slot": "accessory",
+    "kind": "Charm",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter",
+      "Assassin",
+      "Wizard",
+      "Priest"
+    ],
+    "def": 1,
+    "price": 40,
+    "tier": 1,
+    "crit": 0.03
+  },
+  {
+    "id": "swift_feather",
+    "name": "Swift Feather",
+    "rarity": "common",
+    "slot": "accessory",
+    "kind": "Brooch",
+    "classes": [
+      "Assassin",
+      "Fighter"
+    ],
+    "spd": 1,
+    "price": 40,
+    "tier": 1,
+    "crit": 0.04
+  },
+  {
+    "id": "prayer_bead",
+    "name": "Prayer Bead",
+    "rarity": "common",
+    "slot": "accessory",
+    "kind": "Pendant",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "mag": 1,
+    "price": 40,
+    "tier": 1,
+    "crit": 0
+  },
+  {
+    "id": "moss_mail",
+    "name": "Mossweave Mail",
+    "rarity": "uncommon",
+    "slot": "armor",
+    "kind": "Mail",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter"
+    ],
+    "def": 4,
+    "spd": 1,
+    "price": 95,
+    "tier": 2,
+    "hp": 77,
+    "mag": 0
+  },
+  {
+    "id": "scout_leather",
+    "name": "Scout Leather",
+    "rarity": "uncommon",
+    "slot": "armor",
+    "kind": "Leather",
+    "classes": [
+      "Assassin",
+      "Fighter"
+    ],
+    "def": 3,
+    "spd": 2,
+    "price": 95,
+    "tier": 2,
+    "hp": 53,
+    "mag": 0
+  },
+  {
+    "id": "seer_robe",
+    "name": "Seer Robe",
+    "rarity": "uncommon",
+    "slot": "armor",
+    "kind": "Robe",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "def": 3,
+    "mag": 2,
+    "spd": 1,
+    "price": 95,
+    "tier": 2,
+    "hp": 56
+  },
+  {
+    "id": "guard_ring",
+    "name": "Guard Ring",
+    "rarity": "uncommon",
+    "slot": "accessory",
+    "kind": "Ring",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter",
+      "Assassin",
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 2,
+    "mag": 2,
+    "def": 2,
+    "price": 95,
+    "tier": 2,
+    "crit": 0.05
+  },
+  {
+    "id": "shadow_brooch",
+    "name": "Shadow Brooch",
+    "rarity": "uncommon",
+    "slot": "accessory",
+    "kind": "Brooch",
+    "classes": [
+      "Assassin",
+      "Fighter"
+    ],
+    "atk": 1,
+    "spd": 2,
+    "price": 95,
+    "tier": 2,
+    "crit": 0.06
+  },
+  {
+    "id": "saint_beads",
+    "name": "Saint Beads",
+    "rarity": "uncommon",
+    "slot": "accessory",
+    "kind": "Pendant",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "mag": 2,
+    "price": 95,
+    "tier": 2,
+    "crit": 0.03
+  },
+  {
+    "id": "dusk_leather",
+    "name": "Dusk Leather",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Leather",
+    "classes": [
+      "Assassin",
+      "Fighter"
+    ],
+    "def": 5,
+    "spd": 3,
+    "price": 240,
+    "tier": 3,
+    "hp": 105,
+    "mag": 0
+  },
+  {
+    "id": "tideplate",
+    "name": "Tideplate",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Plate",
+    "classes": [
+      "Knight",
+      "Paladin"
+    ],
+    "def": 6,
+    "price": 240,
+    "tier": 3,
+    "hp": 102,
+    "mag": 0
+  },
+  {
+    "id": "pilgrim_robe",
+    "name": "Pilgrim Robe",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Robe",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "def": 5,
+    "mag": 4,
+    "price": 240,
+    "tier": 3,
+    "hp": 95
+  },
+  {
+    "id": "lioncrest_medal",
+    "name": "Lioncrest Medal",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Brooch",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter"
+    ],
+    "atk": 2,
+    "def": 2,
+    "price": 240,
+    "tier": 3,
+    "crit": 0.1,
+    "spd": 3
+  },
+  {
+    "id": "windrunner_charm",
+    "name": "Windrunner Charm",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Charm",
+    "classes": [
+      "Assassin",
+      "Fighter",
+      "Wizard"
+    ],
+    "spd": 3,
+    "price": 240,
+    "tier": 3,
+    "crit": 0.08
+  },
+  {
+    "id": "halo_pendant",
+    "name": "Halo Pendant",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Pendant",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "mag": 3,
+    "def": 1,
+    "price": 240,
+    "tier": 3,
+    "crit": 0.05
+  },
+  {
+    "id": "rune_mantle",
+    "name": "Runic Mantle",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Robe",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "def": 5,
+    "spd": 2,
+    "price": 240,
+    "tier": 3,
+    "hp": 95,
+    "mag": 3
+  },
+  {
+    "id": "sunsteel_plate",
+    "name": "Sunsteel Plate",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Plate",
+    "classes": [
+      "Knight",
+      "Paladin"
+    ],
+    "def": 6,
+    "atk": 1,
+    "price": 240,
+    "tier": 3,
+    "hp": 115,
+    "mag": 0
+  },
+  {
+    "id": "nightveil_wrap",
+    "name": "Nightveil Wrap",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Leather",
+    "classes": [
+      "Assassin",
+      "Fighter"
+    ],
+    "def": 5,
+    "spd": 4,
+    "price": 240,
+    "tier": 3,
+    "hp": 91,
+    "mag": 0
+  },
+  {
+    "id": "warcry_badge",
+    "name": "Warcry Badge",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Brooch",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter"
+    ],
+    "atk": 3,
+    "def": 2,
+    "price": 240,
+    "tier": 3,
+    "crit": 0.1,
+    "spd": 3
+  },
+  {
+    "id": "stormloop_band",
+    "name": "Stormloop Band",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Ring",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter",
+      "Assassin",
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 3,
+    "mag": 3,
+    "spd": 3,
+    "price": 240,
+    "tier": 3,
+    "crit": 0.08
+  },
+  {
+    "id": "crownward",
+    "name": "Crownward Aegis",
+    "rarity": "epic",
+    "slot": "armor",
+    "kind": "Plate",
+    "classes": [
+      "Knight",
+      "Paladin"
+    ],
+    "def": 9,
+    "spd": 3,
+    "price": 495,
+    "tier": 4,
+    "hp": 158,
+    "mag": 0
+  },
+  {
+    "id": "astral_cincture",
+    "name": "Astral Cincture",
+    "rarity": "epic",
+    "slot": "armor",
+    "kind": "Robe",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "def": 8,
+    "mag": 6,
+    "spd": 2,
+    "price": 495,
+    "tier": 4,
+    "hp": 151
+  },
+  {
+    "id": "moonshadow_coat",
+    "name": "Moonshadow Coat",
+    "rarity": "epic",
+    "slot": "armor",
+    "kind": "Leather",
+    "classes": [
+      "Assassin",
+      "Fighter"
+    ],
+    "def": 8,
+    "atk": 2,
+    "spd": 4,
+    "price": 495,
+    "tier": 4,
+    "hp": 140,
+    "mag": 0
+  },
+  {
+    "id": "seraphic_halo",
+    "name": "Seraphic Halo",
+    "rarity": "epic",
+    "slot": "accessory",
+    "kind": "Pendant",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "mag": 6,
+    "def": 2,
+    "price": 495,
+    "tier": 4,
+    "crit": 0.09
+  },
+  {
+    "id": "suncrest_emblem",
+    "name": "Suncrest Emblem",
+    "rarity": "epic",
+    "slot": "accessory",
+    "kind": "Brooch",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter"
+    ],
+    "atk": 3,
+    "def": 4,
+    "spd": 4,
+    "price": 495,
+    "tier": 4,
+    "crit": 0.15
+  },
+  {
+    "id": "moonseal_locket",
+    "name": "Moonseal Locket",
+    "rarity": "epic",
+    "slot": "accessory",
+    "kind": "Talisman",
+    "classes": [
+      "Assassin",
+      "Fighter"
+    ],
+    "atk": 4,
+    "spd": 4,
+    "price": 495,
+    "tier": 4,
+    "crit": 0.09
+  },
+  {
+    "id": "ancient_barkmantle",
+    "name": "Ancient Barkmantle",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Mail",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter"
+    ],
+    "def": 6,
+    "spd": 1,
+    "price": 0,
+    "unique": true,
+    "tier": 3,
+    "hp": 109,
+    "mag": 0
+  },
+  {
+    "id": "sentinel_coreplate",
+    "name": "Sentinel Coreplate",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Plate",
+    "classes": [
+      "Knight",
+      "Paladin"
+    ],
+    "atk": 1,
+    "def": 8,
+    "price": 0,
+    "unique": true,
+    "tier": 3,
+    "hp": 115,
+    "mag": 0
+  },
+  {
+    "id": "iron_plate",
+    "name": "Iron Plate",
+    "rarity": "common",
+    "slot": "armor",
+    "kind": "Plate",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "def": 3,
+    "price": 40,
+    "tier": 1,
+    "hp": 39,
+    "mag": 0
+  },
+  {
+    "id": "chain_hauberk",
+    "name": "Chain Hauberk",
+    "rarity": "common",
+    "slot": "armor",
+    "kind": "Mail",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter"
+    ],
+    "def": 3,
+    "spd": 1,
+    "price": 40,
+    "tier": 1,
+    "hp": 46,
+    "mag": 0
+  },
+  {
+    "id": "road_leather",
+    "name": "Roadworn Leather",
+    "rarity": "common",
+    "slot": "armor",
+    "kind": "Leather",
+    "classes": [
+      "Assassin",
+      "Fighter"
+    ],
+    "def": 2,
+    "spd": 1,
+    "price": 40,
+    "tier": 1,
+    "hp": 42,
+    "mag": 0
+  },
+  {
+    "id": "forestguard_plate",
+    "name": "Forestguard Plate",
+    "rarity": "uncommon",
+    "slot": "armor",
+    "kind": "Plate",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "def": 4,
+    "spd": 1,
+    "price": 95,
+    "tier": 2,
+    "hp": 63,
+    "mag": 0
+  },
+  {
+    "id": "forest_scale",
+    "name": "Forest Scale Mail",
+    "rarity": "uncommon",
+    "slot": "armor",
+    "kind": "Mail",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter"
+    ],
+    "def": 4,
+    "price": 95,
+    "tier": 2,
+    "hp": 70,
+    "mag": 0
+  },
+  {
+    "id": "froststeel_plate",
+    "name": "Froststeel Plate",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Plate",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "def": 6,
+    "spd": 1,
+    "price": 240,
+    "tier": 3,
+    "hp": 115,
+    "mag": 0
+  },
+  {
+    "id": "crystalweave_mail",
+    "name": "Crystalweave Mail",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Mail",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter"
+    ],
+    "def": 6,
+    "spd": 1,
+    "price": 240,
+    "tier": 3,
+    "hp": 102,
+    "mag": 0
+  },
+  {
+    "id": "nightwind_leather",
+    "name": "Nightwind Leather",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Leather",
+    "classes": [
+      "Assassin",
+      "Fighter"
+    ],
+    "def": 5,
+    "spd": 2,
+    "price": 240,
+    "tier": 3,
+    "hp": 98,
+    "mag": 0
+  },
+  {
+    "id": "dread_armor",
+    "name": "Dread Knight Armor",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Plate",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "def": 7,
+    "spd": 1,
+    "price": 240,
+    "tier": 3,
+    "hp": 115,
+    "mag": 0
+  },
+  {
+    "id": "raven_scale",
+    "name": "Raven Scale Mail",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Mail",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter"
+    ],
+    "def": 6,
+    "spd": 2,
+    "price": 240,
+    "tier": 3,
+    "hp": 102,
+    "mag": 0
+  },
+  {
+    "id": "covenant_robe",
+    "name": "Covenant Robe",
+    "rarity": "rare",
+    "slot": "armor",
+    "kind": "Robe",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "def": 5,
+    "mag": 4,
+    "spd": 2,
+    "price": 240,
+    "tier": 3,
+    "hp": 95
+  },
+  {
+    "id": "celestial_plate",
+    "name": "Celestial Paladin Plate",
+    "rarity": "epic",
+    "slot": "armor",
+    "kind": "Plate",
+    "classes": [
+      "Paladin",
+      "Knight"
+    ],
+    "def": 9,
+    "spd": 2,
+    "price": 495,
+    "tier": 4,
+    "hp": 165,
+    "mag": 0
+  },
+  {
+    "id": "royal_chain",
+    "name": "Royal Chainmail",
+    "rarity": "epic",
+    "slot": "armor",
+    "kind": "Mail",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter"
+    ],
+    "def": 9,
+    "spd": 3,
+    "price": 495,
+    "tier": 4,
+    "hp": 151,
+    "mag": 0
+  },
+  {
+    "id": "phantom_leather",
+    "name": "Phantom Leather",
+    "rarity": "epic",
+    "slot": "armor",
+    "kind": "Leather",
+    "classes": [
+      "Assassin",
+      "Fighter"
+    ],
+    "def": 8,
+    "spd": 5,
+    "price": 495,
+    "tier": 4,
+    "hp": 147,
+    "mag": 0
+  },
+  {
+    "id": "oracle_robe",
+    "name": "Oracle Robe",
+    "rarity": "epic",
+    "slot": "armor",
+    "kind": "Robe",
+    "classes": [
+      "Wizard",
+      "Priest"
+    ],
+    "def": 8,
+    "mag": 7,
+    "spd": 2,
+    "price": 495,
+    "tier": 4,
+    "hp": 151
+  },
+  {
+    "id": "plain_ring",
+    "name": "Simple Copper Ring",
+    "rarity": "common",
+    "slot": "accessory",
+    "kind": "Ring",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter",
+      "Assassin",
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 2,
+    "mag": 2,
+    "price": 40,
+    "tier": 1,
+    "crit": 0.03
+  },
+  {
+    "id": "verdant_ring",
+    "name": "Verdant Ring",
+    "rarity": "uncommon",
+    "slot": "accessory",
+    "kind": "Ring",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter",
+      "Assassin",
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 2,
+    "mag": 2,
+    "spd": 1,
+    "def": 1,
+    "price": 95,
+    "tier": 2,
+    "crit": 0.05
+  },
+  {
+    "id": "sapphire_ring",
+    "name": "Sapphire Ring",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Ring",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter",
+      "Assassin",
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 2,
+    "mag": 2,
+    "def": 1,
+    "price": 240,
+    "tier": 3,
+    "crit": 0.08
+  },
+  {
+    "id": "void_ring",
+    "name": "Voidglass Ring",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Ring",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter",
+      "Assassin",
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 4,
+    "mag": 4,
+    "price": 240,
+    "tier": 3,
+    "crit": 0.08
+  },
+  {
+    "id": "dawn_ring",
+    "name": "Dawnfire Ring",
+    "rarity": "epic",
+    "slot": "accessory",
+    "kind": "Ring",
+    "classes": [
+      "Paladin",
+      "Knight",
+      "Fighter",
+      "Assassin",
+      "Wizard",
+      "Priest"
+    ],
+    "atk": 5,
+    "mag": 5,
+    "price": 495,
+    "tier": 4,
+    "crit": 0.12
+  },
+  {
+    "id": "glass_earrings",
+    "name": "Glass Dew Earrings",
+    "rarity": "common",
+    "slot": "accessory",
+    "kind": "Earrings",
+    "classes": [
+      "Wizard",
+      "Priest",
+      "Assassin"
+    ],
+    "spd": 1,
+    "price": 40,
+    "tier": 1,
+    "crit": 0.03
+  },
+  {
+    "id": "willow_earrings",
+    "name": "Willow Earrings",
+    "rarity": "uncommon",
+    "slot": "accessory",
+    "kind": "Earrings",
+    "classes": [
+      "Wizard",
+      "Priest",
+      "Assassin"
+    ],
+    "mag": 1,
+    "spd": 1,
+    "price": 95,
+    "tier": 2,
+    "crit": 0.05
+  },
+  {
+    "id": "moonstone_earrings",
+    "name": "Moonstone Earrings",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Earrings",
+    "classes": [
+      "Wizard",
+      "Priest",
+      "Assassin"
+    ],
+    "mag": 3,
+    "price": 240,
+    "tier": 3,
+    "crit": 0.08
+  },
+  {
+    "id": "nightstar_earrings",
+    "name": "Nightstar Earrings",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Earrings",
+    "classes": [
+      "Wizard",
+      "Priest",
+      "Assassin"
+    ],
+    "mag": 3,
+    "spd": 2,
+    "price": 240,
+    "tier": 3,
+    "crit": 0.08
+  },
+  {
+    "id": "seraph_earrings",
+    "name": "Seraph Earrings",
+    "rarity": "epic",
+    "slot": "accessory",
+    "kind": "Earrings",
+    "classes": [
+      "Wizard",
+      "Priest",
+      "Assassin"
+    ],
+    "mag": 4,
+    "spd": 3,
+    "price": 495,
+    "tier": 4,
+    "crit": 0.12
+  },
+  {
+    "id": "wooden_shield",
+    "name": "Weathered Shield",
+    "rarity": "common",
+    "slot": "accessory",
+    "kind": "Shield",
+    "classes": [
+      "Paladin"
+    ],
+    "def": 2,
+    "price": 40,
+    "tier": 1
+  },
+  {
+    "id": "oakshield",
+    "name": "Oakheart Shield",
+    "rarity": "uncommon",
+    "slot": "accessory",
+    "kind": "Shield",
+    "classes": [
+      "Paladin"
+    ],
+    "def": 3,
+    "price": 95,
+    "tier": 2
+  },
+  {
+    "id": "frostshield",
+    "name": "Frostcrest Shield",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Shield",
+    "classes": [
+      "Paladin"
+    ],
+    "def": 4,
+    "price": 240,
+    "tier": 3
+  },
+  {
+    "id": "dreadshield",
+    "name": "Dreadward Shield",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Shield",
+    "classes": [
+      "Paladin"
+    ],
+    "def": 4,
+    "price": 240,
+    "tier": 3
+  },
+  {
+    "id": "solar_shield",
+    "name": "Solar Lion Shield",
+    "rarity": "epic",
+    "slot": "accessory",
+    "kind": "Shield",
+    "classes": [
+      "Paladin"
+    ],
+    "def": 5,
+    "price": 495,
+    "tier": 4
+  },
+  {
+    "id": "rustic_necklace",
+    "name": "Traveler Necklace",
+    "rarity": "common",
+    "slot": "accessory",
+    "kind": "Necklace",
+    "classes": [
+      "Knight",
+      "Fighter"
+    ],
+    "atk": 1,
+    "price": 40,
+    "tier": 1,
+    "crit": 0
+  },
+  {
+    "id": "hunter_necklace",
+    "name": "Hunter Necklace",
+    "rarity": "uncommon",
+    "slot": "accessory",
+    "kind": "Necklace",
+    "classes": [
+      "Knight",
+      "Fighter"
+    ],
+    "atk": 1,
+    "def": 1,
+    "price": 95,
+    "tier": 2,
+    "crit": 0.03
+  },
+  {
+    "id": "griffon_necklace",
+    "name": "Griffon Necklace",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Necklace",
+    "classes": [
+      "Knight",
+      "Fighter"
+    ],
+    "atk": 2,
+    "spd": 1,
+    "price": 240,
+    "tier": 3,
+    "crit": 0.05
+  },
+  {
+    "id": "bloodcrest_necklace",
+    "name": "Bloodcrest Necklace",
+    "rarity": "rare",
+    "slot": "accessory",
+    "kind": "Necklace",
+    "classes": [
+      "Knight",
+      "Fighter"
+    ],
+    "atk": 3,
+    "def": 1,
+    "price": 240,
+    "tier": 3,
+    "crit": 0.05
+  },
+  {
+    "id": "kingstone_necklace",
+    "name": "Kingstone Necklace",
+    "rarity": "epic",
+    "slot": "accessory",
+    "kind": "Necklace",
+    "classes": [
+      "Knight",
+      "Fighter"
+    ],
+    "atk": 3,
+    "def": 3,
+    "price": 495,
+    "tier": 4,
+    "crit": 0.09
+  }
+]

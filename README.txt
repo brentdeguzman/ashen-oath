@@ -348,3 +348,9 @@ Updated Duskfen Marsh, Stormpeak Highlands, Sunken Shrine, Ashen Spire (3 floors
 
 
 Ashen Oath v1.3.2: Dungeon room progression now expands to 1/2/3/3/4/4/5 stages. See UPDATE_v1_3_2.txt.
+
+
+ASHEN OATH v1.4.3 UPDATE
+- Player skill cooldowns: use -> skip that skill for one personal action -> available again.
+- All 18 class skills show CD 1 TURN while recharging; other skills, attacks, and items remain usable.
+- Outdoor roaming enemies: 10% less HP versus v1.4.2. Dungeon monsters/bosses unchanged.
