@@ -1,8 +1,0 @@
-ASHEN OATH v1.2.3 — IN-GAME BOSS SPRITE PROTOTYPE
-
-- New 5-frame battle sprite assets for all seven guardians.
-- Briarhorn and Fen Devourer use separately illustrated idle, attack, recoil images.
-- The remaining five have animation frames derived from their existing transparent illustrations.
-- New biome-matched Canvas signature move effects, battle-rendered live.
-- Existing overworld boss markers, player skill effects, HP, damage and save system retained.
-- Scope: visual and pose prototype; not a final 20-frame traditional animation set.

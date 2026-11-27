@@ -1,3 +1,0 @@
-Ashen Oath v1.2.7 — IN-MAP DUNGEON ARCHITECTURE
-
-The former v1.2.6 disconnected void-mounted scenery is disabled. Illustrated landmarks now occupy real chamber floor tiles as solid, path-checked scenery. Narrow passageways gain connected, unique construction for each biome (forest roots, marsh decking, crystal mine rails, spire ironwork, echo runes, tidal mosaic, frost ledges). Existing maps and exits are retained, and the game remains save-compatible.

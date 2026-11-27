@@ -1,6 +1,0 @@
-ASHEN OATH v1.2.2 — SKILL VFX REFINEMENT
-===========================================
-
-* All illustrated player skill effects are scaled to 85% of v1.2.1 size (63.75% of v1.2.0 original size).
-* All illustrated player skill effects now draw at 50% opacity (50% transparency), versus 70% opacity in v1.2.1.
-* Combat balance, skills, timing, dungeons, enemy art, and save data are unchanged.

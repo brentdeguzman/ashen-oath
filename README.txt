@@ -1,3 +1,68 @@
+ASHEN OATH v1.2.5 — LIVING SETTLEMENTS & BIOME SCENERY
+==========================================================
+This build continues the GitHub v1.0.0 game through v1.2.4 with cosmetic map
+upgrades and new safe-place inhabitants. Extract the entire archive and launch
+PLAY_GAME_WINDOWS.bat on Windows. The full existing RPG, combat, bosses,
+world exploration, inventory, and saves are preserved.
+
+NEW: Emberfield Meadows is a caravan village with cottages, inn, forge,
+market, stone well, noticeboard, colorful cobbled paths, campfire and
+interactable residents. The caravan trades equipment and tonics; the
+wayfarer keeper offers rest and save. Emberfield is a safe combat-free area.
+
+NEW: Lumin Coast has a coastal market outpost and dock-plank paths; Glimmer
+Rest is a rebuilt healing hamlet. Existing Briarwatch retains its full
+illustrated town map and NPCs.
+
+NEW: Additional biome-specific painted ornament sprites, small animated
+terrain details, ambient particles and cliffside monuments are integrated
+on all 19 themed dungeon/boss maps, without replacing the existing puzzle
+mechanics, campfires, levers, chests, stairs or boss routes.
+
+Technical: actual live canvas rendering, not a picture of a fake UI.
+Additional assets are offline WebP and preserve prior save compatibility.
+See UPDATE_v1_2_5.txt for the new features.
+
+ASHEN OATH v1.2.0 — COMBAT ARTS & GUARDIAN BALANCE
+
+New in v1.2.0: unique painted skill effects for all 18 hero skills. Legacy overlays
+no longer stack. Normal enemies deal an extra 20% damage compared with v1.1.1.
+All seven bosses have tiered HP from 500 to 2000 in 250-point steps, stronger attacks,
+and tactical target focus. See UPDATE_v1_2_0.txt for details.
+
+ASHEN OATH v1.1.1 — ENEMY VISUAL HOTFIX
+==========================================
+
+Corrects the new 70-monster dungeon bestiary visual presentation:
+- Mirror enemy battle sprites horizontally to face the heroes on the right.
+- Re-extract every monster from the larger original approved biome concept sheets,
+  rather than the tight 70-unit overview with neighboring sprite fragments.
+- Clean cut-out silhouettes, and preserve proper width/height without distortion.
+- Rebuilt all 6 animation frames for each enemy: 4 idle, 1 attack, 1 hit.
+- Specifically repaired the Frost Wolf, Fire Drake, Storm Drake, and similar wide creatures.
+- No changes to enemies' battle statistics, behaviors, world-map rosters, loot,
+  boss encounters, combat skills, inventory, merchants or save data.
+
+PLAY: Extract ZIP and run PLAY_GAME_WINDOWS.bat.
+SAVES: Existing v1.0.0 / v1.1.0 exported saves remain compatible.
+
+--- PREVIOUS RELEASE NOTES ---
+ASHEN OATH v1.1.0 — SEVEN DUNGEON BESTIARIES
+==============================================
+
+LATEST UPDATE (built on GitHub v1.0.0):
+70 new biome-specific dungeon enemies (10 per biome), 70 named enemy skills,
+six sprite frames per monster (4 animated idle, attack, hit), elemental
+weaknesses and resistances, enemy status effects, dungeon loot and depth-based
+encounter rarity. All original overworld enemies are preserved and remain
+separate from dungeon encounter pools. See UPDATE_v1_1_0.txt.
+
+PLAY: On Windows open PLAY_GAME_WINDOWS.bat, or open index.html directly.
+SAVES: Import the previous exported save through the System menu.
+The save format, dungeon geometry, bosses and equipment are unchanged.
+
+--- PREVIOUS DEVELOPMENT RELEASE NOTES ---
+
 ASHEN OATH v3.23 — SEVEN LIVING DUNGEONS
 =======================================
 
@@ -263,3 +328,23 @@ v3.26: MERCHANT & INVENTORY
 - Selling/dropping equipped items automatically unequips them after confirmation.
 - Unique rewards can be sold/dropped with extra warning, so be careful.
 - Dropped items are permanently discarded, not placed on the ground.
+
+
+v1.2.2: Illustrated skill effects reduced another 15% and set to 50% opacity. Gameplay is unchanged.
+
+v1.2.9 — CRYSTAL HOLLOW VISIBLE ELEVATION
+---------------------------------------
+All six authored Crystal Hollow stair transitions now have carved stone stairs
+and continuous raised ledge walls in the actual cave terrain atlas. Crystal
+Hollow's original three v1.2.8 floor maps and collision coordinates have not
+changed. Renderer fix: generic ground tiles no longer hide the cave terrain.
+All other dungeons remain unchanged. Extract the archive and launch
+PLAY_GAME_WINDOWS.bat. Prior exported saves remain compatible.
+
+
+ASHEN OATH v1.3.1 — FIVE MORE DUNGEON BIOMES
+-------------------------------------------
+Updated Duskfen Marsh, Stormpeak Highlands, Sunken Shrine, Ashen Spire (3 floors), and Trial of Echoes (2 floors), plus their guardian rooms. New original tile-matched terrain artwork, connected paths and visible stairs, and biome-specific cliff and barrier treatment. Earlier Blackroot and Crystal Hollow updates retained.
+
+
+Ashen Oath v1.3.2: Dungeon room progression now expands to 1/2/3/3/4/4/5 stages. See UPDATE_v1_3_2.txt.
