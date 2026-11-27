@@ -1,9 +1,0 @@
-ASHEN OATH v1.2.0 — COMBAT ARTS & GUARDIAN BALANCE
-
-18 unique hero skill artworks. All 9 existing art signatures are retained. Nine other skills now have original image art, with revised green Cleanse and golden Prayer artwork.
-The old procedural effect is never drawn simultaneously with the new hero art. Enemy magic is unaffected. Ordinary physical attacks receive a painted slash.
-Ordinary enemies deal an additional 20% damage (old 1.20x => new 1.44x total). Bosses now use an independent 1.82x base-damage multiplier.
-Boss HP progression by expected campaign challenge: Briarhorn 500, Crystal Sentinel 750, Fen Devourer 1000, optional Tidebound Warden 1250, Stormclaw Gryphon 1500, Ashen Sovereign 1750, optional Keeper of Echoes 2000.
-Bosses must attack on their first and every third turn, and cannot heal/ward in consecutive turns.
-No changes to dungeon layouts, loot, save format or overworld enemies.
-Guardian targeting preferentially presses an injured hero unless a Paladin taunt draws it away.

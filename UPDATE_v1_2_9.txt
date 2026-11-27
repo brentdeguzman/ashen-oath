@@ -1,9 +1,0 @@
-ASHEN OATH v1.2.9 — CRYSTAL HOLLOW VISIBLE ELEVATION
-========================================================
-
-CRYSTAL HOLLOW ONLY: Repainted all three original 1530×1050 cave terrain atlases with continuous raised terrace masonry, visible front-facing cliff risers, detailed capstones, edge shadowing, and carved stairs integrated into all six actual L-tile transition pairs.
-
-* No new ladders/fake shortcuts.
-* Existing collision tiles, floor transfers, loot, NPCs and save data remain unchanged.
-* Other six dungeon art and gameplay unchanged.
-* v1.2.8 Crystal Hollow cave rooms and crystal boundaries remain intact.
