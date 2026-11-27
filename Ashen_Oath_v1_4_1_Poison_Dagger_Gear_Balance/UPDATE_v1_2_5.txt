@@ -1,0 +1,7 @@
+ASHEN OATH v1.2.5 — LIVING SETTLEMENTS & BIOME SCENERY
+
+New: Actual painted transparent cottages, inn, covered caravan, market, forge, noticeboard, well and fences in Emberfield Meadows; additional outpost scenery at Lumin Coast and Glimmer Rest. Named roaming/talking inhabitants, caravan buy/sell and tonic trade, safe Emberfield exploration.
+
+New: Seven biome-specific ornamental relics and seven newly composed terrain decoration sprites; deterministic environmental details across every terraced floor and boss chamber (including fireflies, spores, ice, mine-cart ruins, infernal seams, spectral glyphs, coral, and wind), without altering existing dungeon pathfinding or interactable positions.
+
+The graphical layers are actually integrated into the playable canvas renderer, not baked promotional backgrounds. The existing save schema, story, 70 dungeon enemies and bosses, equipment, combat and v1.2.4 boss skills are preserved.

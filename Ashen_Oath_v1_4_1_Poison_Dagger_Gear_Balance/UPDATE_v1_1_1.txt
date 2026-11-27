@@ -1,0 +1,15 @@
+ASHEN OATH v1.1.1 — ENEMY VISUAL HOTFIX
+==========================================
+
+Corrects the new 70-monster dungeon bestiary visual presentation:
+- Mirror enemy battle sprites horizontally to face the heroes on the right.
+- Re-extract every monster from the larger original approved biome concept sheets,
+  rather than the tight 70-unit overview with neighboring sprite fragments.
+- Clean cut-out silhouettes, and preserve proper width/height without distortion.
+- Rebuilt all 6 animation frames for each enemy: 4 idle, 1 attack, 1 hit.
+- Specifically repaired the Frost Wolf, Fire Drake, Storm Drake, and similar wide creatures.
+- No changes to enemies' battle statistics, behaviors, world-map rosters, loot,
+  boss encounters, combat skills, inventory, merchants or save data.
+
+PLAY: Extract ZIP and run PLAY_GAME_WINDOWS.bat.
+SAVES: Existing v1.0.0 / v1.1.0 exported saves remain compatible.

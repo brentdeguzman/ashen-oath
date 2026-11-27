@@ -1,0 +1,8 @@
+ASHEN OATH v1.4.1 — EQUIPMENT TUNING & ACCESSORY ART
+====================================================
+• Assassin skill Throw Dagger replaced by Poison Dagger. Single-target physical damage, independent CRIT roll, and a 40% chance to inflict 2 turns of poison. Uses the existing poisonous dagger VFX.
+• MES Knife's +50% skill-damage passive is now attached to Poison Dagger.
+• All armor critical chance bonuses removed. Armor HP bonuses reduced by 30%, rounded to the nearest HP.
+• All accessories, including Tidewarden Amulet and Echo Crown, no longer provide bonus HP. Accessory CRIT bonuses remain.
+• Normal encounter enemies gain 30% more maximum/current HP relative to v1.4.0 AFTER the existing 20% monster-stat multiplier. Boss HP is unchanged from v1.4.0.
+• Accessory icons were redesigned to use richly shaded fantasy pixel-art rings, charms, necklaces, earrings, and shields matching the armor. All old IDs remain compatible with saves and +0..+7 refinement.

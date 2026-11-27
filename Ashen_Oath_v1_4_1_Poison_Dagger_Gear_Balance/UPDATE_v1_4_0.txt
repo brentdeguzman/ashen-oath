@@ -1,0 +1,10 @@
+ASHEN OATH v1.4.0 — EQUIPMENT OVERHAUL
+========================================
+• 42 weapon icons sourced from the user's new weapon.rar, with specified stats and class restrictions.
+• Four tiers: green, blue, purple, orange. Armor & accessory base IDs preserved; stats rebalanced with HP & CRIT.
+• Critical chance is the sum from equipped gear; each damaging strike rolls separately; critical deals x2 damage.
+• Weapon-specific skill amplifications, poison/burn (40%, 2 turns), and Cursed Sword recoil.
+• Added Throw Dagger Assassin ability for MES Knife's special effect.
+• All encounters: +20% HP, ATK, DEF and SPD (includes bosses).
+• Old weapon IDs migrated to nearest new counterparts on loading saved games. Refinement +0..+7 remains instance-specific.
+• Shop sells starter and Tier 2 gear; high-tier equipment drops from harder enemies and chests.
