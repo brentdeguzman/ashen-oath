@@ -1,0 +1,18 @@
+ASHEN OATH v1.3.1 — FIVE REMAINING DUNGEONS REBUILT
+
+Based on verified v1.3.0a Blackroot and v1.2.9 Crystal Hollow.
+
+* Rebuilt eight exploration maps: Duskfen (6), Stormpeak (7), Sunken Shrine (4),
+  Ashen Spire (15/16/8), Trial of Echoes (17/18).
+* Five guardian sanctums get matching biome architectural terrain (25–29).
+* Each exploration floor has two real elevation crossings with visible carved stairs.
+* Marsh reeds and boardwalks; icy cliffs; volcanic rock; spectral columns;
+  submerged coral and shrine walls mark non-walkable boundaries.
+* Preserved 70 dungeon enemies, all bosses, equipment, quest and save structure,
+  original Blackroot and Crystal Hollow overhaul, shop, player and boss skill VFX.
+* Existing entrances, campfires, levers, chests, shortcuts, upper-floor exits,
+  guardian battles and rear boss exits remain gameplay objects.
+* 13 authored terrain atlases drawn from in-game biome art, not mockup backgrounds.
+
+NOTE: Older saves can migrate using the game's existing nearest-valid-tile rescue;
+  no character, item, or boss progress is reset.

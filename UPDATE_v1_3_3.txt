@@ -1,0 +1,15 @@
+ASHEN OATH v1.3.3 — LYRA'S REFINERY AND BULK SELLING
+
+Visit Lyra the Master Refiner beside Torren in Briarwatch's Ironwood Workshop.
+
++1 through +7 costs: 80 / 160 / 240 / 320 / 400 / 480 / 560 gold.
+Success rate: 100% / 80% / 70% / 60% / 50% / 40% / 30%.
+Failure +1 to +4: consumes gold, equipment remains undamaged at current level.
+Failure +5 to +7: equipment breaks, retaining its current refinement and UID; broken gear unequips and cannot be used until repaired.
+Repair cost: 80 gold x current refinement level.
++1 relevant stat per refinement level: ATK for swords/daggers, MAG for wands, DEF for armor, highest original stat for accessories.
+
+Torren and caravan traders now protect equipped items against sale; sell buttons are disabled for worn gear and the transaction handler rejects it.
+Sell All Unequipped includes all unequipped equipment and the full tonic stack, with one confirmation and a warning if unique boss rewards are included.
+
+The per-instance refinement fields are saved with existing inventory. Original equipment IDs, world content, saves, combat and maps are preserved.
