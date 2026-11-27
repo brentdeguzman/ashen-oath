@@ -1,0 +1,6 @@
+ASHEN OATH v1.4.4 — SACRIFICE BALANCE
+
+Sacrifice retains its 2 MP cost and 18% max-HP self-damage, its 1-turn skill cooldown, and cannot KO the caster.
+Damage: greater of upgraded physical calculation or 2.5x the HP sacrificed, before elemental resistances, wards, overkill caps, weapon skill bonuses and critical hits.
+Example: 34 HP paid creates at least 85 base damage; Legendary Spear skill boost and separate critical still apply.
+No other player skill, boss, equipment, dungeon or encounter statistics changed.

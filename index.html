@@ -1032,6 +1032,11 @@ function equipCrit(hero){return Math.max(0,Math.min(1,equippedItems(hero).reduce
 function heroWeapon(hero){normalizeGear(hero);const g=gearByUid(hero?.gear?.weapon);return g&&!g.broken?itemById(g.id):null;}
 function weaponSkillBoost(hero,id){return Number(heroWeapon(hero)?.skillBoosts?.[id]||0);}
 function rollCritical(hero,roll=Math.random()){return roll<equipCrit(hero);}
+// v1.4.5: Backstab rewards both Assassin ATK and SPD, piercing 50% of enemy DEF.
+// The shared damage() pipeline applies weapon skill bonuses, critical hits, wards and affinities.
+function backstabDamageBase(atk,spd,def,roll){
+ return Math.max(1,Math.floor((atk+Math.floor(spd*.5)+roll+2)*2+1-def*.5));
+}
 function statusWeaponProc(hero,victim){
  const w=heroWeapon(hero);
  if(!w||!w.onHitStatus||!victim||victim.hp<=0||Math.random()>=(w.onHitChance||0))return false;
@@ -6615,11 +6620,14 @@ function renderBattleHUD(){
  }
 }
 
+// v1.4.4: Sacrifice must meaningfully reward its guaranteed self-damage.
+// The guarantee is calculated before elemental resistance, wards and enemy remaining HP.
+function sacrificeDamageBase(paidHp, calculatedPhysical){return Math.max(calculatedPhysical,Math.ceil(paidHp*2.5));}
 // v2.6: each skill has its own MP cost, targeting mode, and balanced effect.
 // Target modes: enemy, all-enemies, ally, self, party. Fleeing never grants loot.
 const SKILLBOOK={
  Paladin:[
-  {id:'sacrifice',name:'Sacrifice',cost:2,target:'enemy',tip:'2 MP + 18% max HP (cannot KO caster) · devastating crimson slash'},
+  {id:'sacrifice',name:'Sacrifice',cost:2,target:'enemy',tip:'2 MP + 18% max HP (cannot KO caster) · deals at least 2.5× sacrificed HP as damage before other modifiers'},
   {id:'lion_roar',name:'Lion Roar',cost:7,target:'party',tip:'Taunt enemies · all enemy ATK −3 for 3 actions'},
   {id:'defender',name:'Defender',cost:8,target:'ally',tip:'Give self and one ally +4 DEF for 3 actions'}],
  Knight:[
@@ -6633,7 +6641,7 @@ const SKILLBOOK={
  Assassin:[
   {id:'sonic_blow',name:'Sonic Blow',cost:10,target:'enemy',tip:'4 slashes · each hit has a 25% chance to stun for 1 action'},
   {id:'deadly_poison',name:'Deadly Poison',cost:8,target:'all-enemies',tip:'Two random targets, poison for 2 affected turns'},
-  {id:'backstab',name:'Backstab',cost:6,target:'enemy',tip:'About 1.5× normal attack damage'}],
+  {id:'backstab',name:'Backstab',cost:6,target:'enemy',tip:'2× (ATK + 50% SPD) · ignores 50% DEF · criticals and weapon boosts apply'}],
  Wizard:[
   {id:'storm_gust',name:'Storm Gust',cost:11,target:'all-enemies',tip:'Icy wind damages every foe · 25% freeze chance for one action per foe'},
   {id:'fire_bolt',name:'Fire Bolt',cost:7,target:'enemy',tip:'Strong single-target fire magic'},
@@ -6950,7 +6958,10 @@ function playerAction(p,action,selected,skillId=null){
     case 'sacrifice':{
      const cost=Math.max(3,Math.ceil(p.maxhp*.18));
      p.hp=Math.max(1,p.hp-cost);
-     const hit=damage(target,physical(target,1.65,9+level*2,.55),'#ff9989');
+     // ATK growth remains useful, while max HP provides a reliable damage floor.
+     // Criticals and the Legendary Spear bonus are applied once by damage().
+     const base=sacrificeDamageBase(cost,physical(target,2.1,12+level*3,.35));
+     const hit=damage(target,base,'#ff9989');
      log(p.name+' sacrifices '+cost+' HP to strike '+target.name+' for '+hit+'!');
      showNumber(p,'-'+cost+' HP','#ffb5ab');break;
     }
@@ -7015,8 +7026,9 @@ function playerAction(p,action,selected,skillId=null){
      log('Deadly Poison strikes two random foes for '+total+' total damage and inflicts '+infected+' poison effect(s) lasting 2 actions.');break;
     }
     case 'backstab':{
-     const hit=damage(target,physical(target,1.5,1,.8),'#b1eaff');
-     log('Backstab hits '+target.name+' for '+hit+' damage (×1.5).');break;
+     const raw=backstabDamageBase(atk,effectiveStat(p,'spd'),target.def,rand(5));
+     const hit=damage(target,raw,'#b1eaff');
+     log('Backstab strikes '+target.name+' for '+hit+' damage, exploiting speed and 50% of DEF!');break;
     }
     case 'storm_gust':{
      let total=0,count=0,frozen=0;
@@ -7624,7 +7636,7 @@ function v132StageStatus(zone){
  const info=V132_ROOM_INFO[zone];return info?'Room '+info.ordinal+'/'+info.total+' · '+info.biome:'';
 }
 // Export only metadata needed for debugging the release; no mutable test commands in distribution.
-window.ASHEN_OATH_RELEASE='v1.4.3 — Skill Cooldowns & Overworld Balance';
+window.ASHEN_OATH_RELEASE='v1.4.5 — Backstab Balance';
 
 
 showTitle();

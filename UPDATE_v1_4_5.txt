@@ -1,0 +1,12 @@
+ASHEN OATH v1.4.5 — BACKSTAB BALANCE HOTFIX
+================================================
+
+Backstab's updated physical damage, before shared weapon, critical, elemental and ward modifiers:
+  max(1, floor((ATK + floor(SPD / 2) + random integer 0..4 + 2) * 2 + 1 - enemy DEF * 0.5))
+
+* MP cost remains 6.
+* One-turn cooldown remains unchanged.
+* A successful critical deals 2x damage, as for other skills.
+* Assassin's Dagger's +80% Backstab boost still applies once.
+* Enemy elemental resistances and wards still apply normally.
+* No other skill, gear, class, monster or map balance has changed.
